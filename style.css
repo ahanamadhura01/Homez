@@ -208,6 +208,10 @@ button{
     height: 30px;
     width: 150px;
 }
+.navigation ul{
+
+    display: flex;
+}
 .navigation a{
 
     color: white;
@@ -235,7 +239,7 @@ button{
 
     padding: 128px 226px 64px;
     background-image: 
-     linear-gradient(to right, rgba(0,0,0,78%), rgba(219, 217, 217, 0)),
+     linear-gradient(to right, rgba(0, 0, 0, 78%), rgba(219, 217, 217, 0)),
      url(Assets/1a60aff1276dd9aec992a1b0417d56d4bf533206.jpg);
      background-repeat: no-repeat;
      background-size: cover;
@@ -320,32 +324,49 @@ button{
 
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    gap: 42px;
 }
 
 .location{
 
     align-items: center;
-    margin-right: 72px;
+    border-right: 2px solid #E7A837;
     p{
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     }
     .content{
 
         color: white;
         font-size: 24px;
+        margin-right: 64px;
     }
     .content i{
 
-        margin-left: 64px;
+        margin-left: 24px;
+        
     }
+}
+
+.location hr{
+
+    text-decoration-color: #E7A837;
+    width: 53px;
+    margin-bottom: 8px;
+}
+
+.content-location{
+
+    margin-right: 24px;
 }
 
 .property-type{
 
     align-items: center;
-    margin-right: 72px;
+    border-right: 2px solid #E7A837;
+    
     p{
     font-size: 24px;
     font-weight: 400;
@@ -355,17 +376,25 @@ button{
 
         color: white;
         font-size: 24px;
+        margin-right: 64px;
     }
     .content i{
 
-        margin-left: 64px;
+        margin-left: 24px;
     }
 }
+
+.property-type hr{
+
+    text-decoration-color: #E7A837;
+    width: 53px;
+    margin-bottom: 8px;
+}
+
 
 .price-range{
 
     align-items: center;
-    margin-right: 72px;
     p{
     font-size: 24px;
     font-weight: 400;
@@ -375,17 +404,35 @@ button{
 
         color: white;
         font-size: 24px;
+        margin-right: 64px;
     }
     .content i{
 
-        margin-left: 64px;
+        margin-left: 24px;
     }
 }
 
-.property-type::before{
+.price-range hr{
 
-    border: 1px solid #E7A837;
+    text-decoration-color: #E7A837;
+    width: 53px;
+    margin-bottom: 8px;
 }
+
+.property-listing{
+
+    padding: 60px 300px;
+}
+.listing-heading{
+
+    display: flex;
+}
+
+.right-list-heading p{
+
+    font-size: 64px;
+}
+
 
 
 /*mobile devices*/
@@ -411,10 +458,4 @@ button{
 /*Desktops*/
 
 @media(max-width:1400px){}
-
-
-
-
-
- 
 
