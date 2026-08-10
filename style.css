@@ -612,7 +612,7 @@ button {
     }
 }
 
-.feature-left-content {
+.feature-right-content {
 
     display: flex;
     justify-content: space-between;
@@ -650,6 +650,121 @@ button {
     p:last-child{
 
         font-weight: 600;
+    }
+}
+
+.how-it-works{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 60px 300px;
+}
+
+.how-it-works-left-content{
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.card-01{
+    background-color: #fdf7eb;
+    padding: 32px 40px;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+    border-radius: 40px;
+    margin-top: 80px;
+
+    .number{
+        font-size: 48px;
+        font-weight: 600;
+        color: black;
+        text-align: right;
+    }
+
+    .inner-content{
+
+        font-size: 32px;
+        color: black;
+        font-weight: 500px;
+
+        .body{
+
+            font-size: 20px;
+            color: gray;
+        }
+    }
+}
+
+
+
+.card-02{
+
+    height: 600px;
+    width: 410px;
+    background-color: #f5dcaf;
+    padding: 32px 40px;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+    border-radius: 40px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .number{
+        font-size: 48px;
+        font-weight: 600;
+        color: black;
+        text-align: right;
+    }
+
+    .inner-content{
+
+        font-size: 32px;
+        color: black;
+        font-weight: 500px;
+
+        .body{
+
+            font-size: 20px;
+            color: gray;
+        }
+    }
+
+}
+.how-it-works-right-content{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.card-03{
+    background-color: #fdf7eb;
+    padding: 32px 40px;
+    box-shadow: 5px 5px 10px rgb(133, 133, 133);
+    border-radius: 40px;
+    margin-top: 80px;
+
+    .number{
+        font-size: 48px;
+        font-weight: 600;
+        color: black;
+        text-align: right;
+    }
+
+    .inner-content{
+
+        font-size: 32px;
+        color: black;
+        font-weight: 500px;
+
+        .body{
+
+            font-size: 20px;
+            color: gray;
+        }
     }
 }
 
