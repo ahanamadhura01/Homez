@@ -921,7 +921,6 @@ button {
 
         img {
 
-            height: auto;
             width: 380px;
             object-fit: cover;
         }
@@ -954,6 +953,7 @@ button {
             width: 380px;
             object-fit: cover;
             object-position: top;
+
 
         }
 
@@ -1025,9 +1025,10 @@ button {
     overflow: hidden;
     max-height: 412px;
 
-    img{
+    img {
 
         object-fit: cover;
+
     }
 
     .bento-section-texts {
@@ -1035,6 +1036,7 @@ button {
         padding: 32px 32px;
 
         margin-bottom: 36px;
+
         #qoute-texts {
             color: black;
             font-size: 32px;
@@ -1077,7 +1079,7 @@ button {
     padding: 72px 72px;
     border-radius: 40px;
     color: #E7A837;
-    
+
 
     #name-text {
 
@@ -1091,24 +1093,27 @@ button {
     margin-bottom: 24px;
 
 }
-.Live-countdown{
+
+.Live-countdown {
 
     background-color: #fdf7eb;
     border-radius: 20px;
-     padding: 16px;
-    #Live-countdown-text{
+    padding: 16px;
+
+    #Live-countdown-text {
 
         font-size: 24px;
         color: darkgrey;
     }
 
 }
+
 .number-button {
 
     display: flex;
     justify-content: space-between;
-   
-    p{
+
+    p {
         font-size: 48px;
         font-weight: 700px;
     }
@@ -1127,13 +1132,13 @@ button {
 }
 
 
-.clients-trust{
+.clients-trust {
 
     padding: 60px 300px;
 }
 
 
-.why-content{
+.why-content {
     display: flex;
     width: 100%;
     margin-top: 36px;
@@ -1141,14 +1146,14 @@ button {
 
 
 
-.why-left{
+.why-left {
     width: 30%;
 }
 
 
 
 
-.reason-card{
+.reason-card {
     width: 380px;
     height: 455px;
 
@@ -1163,7 +1168,7 @@ button {
     margin-bottom: 48px;
 }
 
-.reason-card h3{
+.reason-card h3 {
     font-size: 37px;
     line-height: 1.35;
     font-weight: 400;
@@ -1171,7 +1176,7 @@ button {
     margin-bottom: 28px;
 }
 
-.reason-card p{
+.reason-card p {
     font-size: 20px;
     line-height: 1.45;
 
@@ -1181,11 +1186,11 @@ button {
 
 
 
-.house-icon{
+.house-icon {
     margin-top: 20px;
 }
 
-.house-icon img{
+.house-icon img {
     height: 120px;
     width: 120px;
 }
@@ -1193,7 +1198,7 @@ button {
 
 
 
-.why-right{
+.why-right {
     width: 70%;
 
     position: relative;
@@ -1201,7 +1206,7 @@ button {
     padding-left: 65px;
 }
 
-.reason-item{
+.reason-item {
     height: 140px;
 
     border-bottom: 1px solid #E7A837;
@@ -1215,12 +1220,12 @@ button {
     cursor: pointer;
 }
 
-.reason-item h3{
+.reason-item h3 {
     font-size: 30px;
     font-weight: 600;
 }
 
-.reason-item span{
+.reason-item span {
     font-size: 31px;
     color: E7A837;
 
@@ -1228,13 +1233,13 @@ button {
 }
 
 
-.reason-item:hover span{
+.reason-item:hover span {
     transform: translate(5px, 5px);
 }
 
 
 
-.background-text{
+.background-text {
     position: absolute;
 
     right: 10px;
@@ -1246,48 +1251,48 @@ button {
     color: #c5c5c5;
 }
 
-.properties-section{
+.properties-section {
 
     padding: 130px 300px;
 
-    .section-heading{
+    .section-heading {
 
         display: flex;
         justify-content: space-between;
         align-items: end;
         margin-bottom: 72px;
 
-    .properties-bg-text{
+        .properties-bg-text {
 
-        font-size: 62px;
-    font-weight: 700;
+            font-size: 62px;
+            font-weight: 700;
 
-    color: #C4C4C4;
+            color: #C4C4C4;
+        }
+
     }
-
-}
 }
 
-.properties-section-content{
+.properties-section-content {
 
     display: flex;
     justify-content: space-between;
     gap: 24px;
 
-    .project-card{
+    .project-card {
 
-        hr{
+        hr {
             width: 260px;
             margin: 20px 0px;
         }
     }
 }
 
-.insight-section{
+.insight-section {
 
     padding: 60px 300px;
-    
-    .section-heading{
+
+    .section-heading {
 
         text-align: center;
         margin-bottom: 72px;
@@ -1295,43 +1300,44 @@ button {
 }
 
 
-.blog-container{
+.blog-container {
 
     display: flex;
     justify-content: space-between;
     gap: 48px;
 
-    .featured-blog{
+    .featured-blog {
 
-    width: 100%;
+        width: 100%;
+    }
+
+    .blog-list {
+
+        width: 100%;
+    }
+
 }
-.blog-list{
-
-    width: 100%;
-}
-
-}
 
 
-.featured-image{
+.featured-image {
     width: 100%;
     height: 435px;
     object-fit: cover;
-    
+
 }
 
-.featured-image img{
+.featured-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius:40px;
+    border-radius: 40px;
     display: block;
 }
 
 
 
 
-.featured-blog h2{
+.featured-blog h2 {
     font-size: 45px;
     line-height: 1.3;
 
@@ -1342,7 +1348,7 @@ button {
 
 
 
-.featured-blog p{
+.featured-blog p {
     font-size: 21px;
     line-height: 1.5;
 
@@ -1356,7 +1362,7 @@ button {
 
 
 
-.blog-item{
+.blog-item {
     min-height: 280px;
 
     padding: 35px 0 50px;
@@ -1366,14 +1372,14 @@ button {
 
 }
 
-.blog-item:first-child{
+.blog-item:first-child {
     padding-top: 25px;
 }
 
 
 
 
-.blog-item h3{
+.blog-item h3 {
     font-size: 35px;
 
     line-height: 1.6;
@@ -1384,7 +1390,7 @@ button {
 
 
 
-.blog-item p{
+.blog-item p {
     font-size: 21px;
 
     line-height: 1.5;
@@ -1394,13 +1400,14 @@ button {
 
 
 
-.faq-section{
+.faq-section {
 
     padding: 80px 300px;
 
     background-color: #fdf7eb;
     border-radius: 20px;
-    .section-heading{
+
+    .section-heading {
 
         text-align: center;
         margin-bottom: 80px;
@@ -1489,11 +1496,209 @@ button {
 }
 
 
-.faq-question i{
+.faq-question i {
 
     rotate: 45deg;
 
 }
+
+
+.footer-section {
+
+    margin-top: 60px;
+
+    .footer-section-container {
+
+        padding: 60px 300px;
+        background-color: #000;
+        border-radius: 20px;
+
+        .logo {
+            width: 209px;
+            height: 40px;
+            margin-bottom: 56px;
+        }
+    }
+
+}
+
+.footer-section-content {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    .footer-menu-section {
+        h3 {
+
+            margin-bottom: 48px;
+        }
+
+        .footer-menu {
+
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            a:hover {
+
+                color: #E7A837;
+            }
+        }
+    }
+
+    .write-section h3 {
+
+        margin-bottom: 48px;
+    }
+
+
+    .write-section p {
+        max-width: 350px;
+
+        font-size: 18px;
+        line-height: 1.5;
+
+        margin-bottom: 32px;
+    }
+
+    .contact-section {
+        width: 45%;
+    }
+
+
+
+    .contact-title {
+        display: inline-block;
+
+        background: #F4E2C0;
+        color: #000;
+
+        padding: 14px 28px;
+
+        border-radius: 40px;
+
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+
+
+
+
+    .contact-section form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+
+
+    .contact-section input {
+        width: 100%;
+        height: 70px;
+
+        border: 1px solid #E9A72C;
+        border-radius: 40px;
+
+        padding: 0 30px;
+
+        font-size: 20px;
+
+    }
+
+
+
+    .contact-section textarea {
+        width: 100%;
+        height: 180px;
+
+        border: 1px solid #E7A837;
+        border-radius: 35px;
+
+        padding: 25px 30px;
+
+        font-size: 21px;
+
+    }
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 80px;
+    color: white;
+}
+
+.social-icons a {
+    width: 52px;
+    height: 52px;
+
+    background: white;
+    color: #000;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+
+    background-color: #E7A837;
+    color: white;
+}
+
+
+.footer-bottom {
+
+    margin: 36px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-bottom p {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-bottom p:hover {
+
+    color: #E7A837;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 45px;
+}
+
+
+.footer-legal a {
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+.footer-legal a:hover {
+
+    color: #E7A837;
+}
+
 
 /*mobile devices*/
 @media (max-width:320px) {}
