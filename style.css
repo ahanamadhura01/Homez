@@ -1719,6 +1719,59 @@ button {
     color: #ccc;
 }
 
+
+.aboutus-page-section-banner
+{
+
+    
+    background-image: url(Assets/Frame\ 145.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 300px;
+    width: 100%;
+    border-radius: 40px;
+    align-items: center;
+    .heading-texts h1{
+
+        margin-bottom: 42px;
+    }
+}
+
+.about-company{
+
+    padding: 60px 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+    img{
+
+        height: 605px;
+        width: 622px;
+        object-fit: cover;
+        object-position: 20% 100%;
+        border-radius: 40px;
+    }
+}
+
+.header-texts{
+
+    margin-left: 24px;
+    h4{
+        color: #000;
+        margin-bottom: 24px;
+        font-size: 32px;
+        font-weight: 600;
+        span{
+            color: #E7A837;
+        }
+    }
+    p{
+        color: black;
+        margin-bottom: 42px;
+        margin-top: 24px;
+    }
+}
 /*mobile devices*/
 @media (max-width:320px) {}
 
