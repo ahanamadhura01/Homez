@@ -1607,7 +1607,7 @@ button {
 
 
 
-.section-banner{
+.service-page-section-banner{
 
     background-image: url(Assets/Mask\ group\ 1.png);
     background-repeat: no-repeat;
@@ -1627,6 +1627,22 @@ button {
 
     padding: 60px 300px;
 }
+
+.faq-page-section-banner{
+
+    background-image: url(Assets/fb34914a907f5fce340bbedcc53298528dfda3b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 300px;
+    width: 100%;
+    border-radius: 40px;
+    align-items: center;
+    .heading-texts h1{
+
+        margin-bottom: 42px;
+    }
+}
+
 
 /*mobile devices*/
 @media (max-width:320px) {}
