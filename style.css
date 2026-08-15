@@ -1391,8 +1391,7 @@ button {
 
 .faq-question h3 {
     font-size: 30px;
-    font-weight: 400;
-
+    font-weight: 500;
     color: #707070;
 }
 
@@ -1419,6 +1418,10 @@ button {
     min-height: auto;
     padding-top: 20px;
     padding-bottom: 35px;
+    h3{
+        color: black;
+        font-weight: 600;
+    }
 }
 
 .faq-question i {
