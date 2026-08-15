@@ -1498,10 +1498,9 @@ button {
         padding: 14px 28px;
 
         border-radius: 40px;
-
         font-size: 22px;
         font-weight: 400;
-        margin-bottom: 40px;
+        margin-bottom: 32px;
     }
 
     .contact-section form {
@@ -1513,25 +1512,22 @@ button {
 
     .contact-section input {
         width: 100%;
-        height: 70px;
-
+        height: 50px;
         border: 1px solid #E9A72C;
         border-radius: 40px;
-
         padding: 0 30px;
-
         font-size: 20px;
 
     }
 
     .contact-section textarea {
         width: 100%;
-        height: 180px;
+        height: 80px;
 
         border: 1px solid #E7A837;
         border-radius: 35px;
 
-        padding: 25px 30px;
+        padding: 16px 30px;
 
         font-size: 21px;
 
@@ -1544,24 +1540,19 @@ button {
 
     gap: 15px;
 
-    margin-top: 80px;
+    margin-top: 32px;
     color: white;
 }
 .social-icons a{
     width: 52px;
     height: 52px;
-
     background: white;
     color: #000;
-
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-decoration: none;
-
     font-size: 20px;
 }
 
@@ -1573,7 +1564,7 @@ button {
 
 .footer-bottom{
 
-    margin: 36px 0;
+    margin:16px 0px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1604,6 +1595,34 @@ button {
 .footer-legal a:hover{
 
     color: #E7A837;
+}
+
+
+
+
+/* service page starts */
+
+
+
+.section-banner{
+
+    background-image: url(Assets/Mask\ group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 300px;
+    width: 100%;
+    border-radius: 40px;
+    align-items: center;
+    .heading-texts h1{
+
+        margin-bottom: 42px;
+    }
+}
+
+
+.services-offered{
+
+    padding: 60px 300px;
 }
 
 /*mobile devices*/
