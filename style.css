@@ -1418,7 +1418,8 @@ button {
     min-height: auto;
     padding-top: 20px;
     padding-bottom: 35px;
-    h3{
+
+    h3 {
         color: black;
         font-weight: 600;
     }
@@ -1455,6 +1456,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+
     .footer-menu-section {
         h3 {
 
@@ -1474,8 +1476,8 @@ button {
         }
     }
 
-    .write-section h3{
-       
+    .write-section h3 {
+
         margin-bottom: 48px;
     }
 
@@ -1537,7 +1539,8 @@ button {
     }
 
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     justify-content: center;
 
@@ -1546,7 +1549,8 @@ button {
     margin-top: 32px;
     color: white;
 }
-.social-icons a{
+
+.social-icons a {
     width: 52px;
     height: 52px;
     background: white;
@@ -1559,35 +1563,36 @@ button {
     font-size: 20px;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
 
     background-color: #E7A837;
-    color:white;
+    color: white;
 }
 
-.footer-bottom{
+.footer-bottom {
 
-    margin:16px 0px ;
+    margin: 16px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-bottom p{
+.footer-bottom p {
     font-size: 16px;
     color: white;
 }
 
-.footer-bottom p:hover{
+.footer-bottom p:hover {
 
     color: #E7A837;
 }
-.footer-legal{
+
+.footer-legal {
     display: flex;
     gap: 45px;
 }
 
-.footer-legal a{
+.footer-legal a {
     color: #fff;
 
     text-decoration: none;
@@ -1595,7 +1600,7 @@ button {
     font-size: 16px;
 }
 
-.footer-legal a:hover{
+.footer-legal a:hover {
 
     color: #E7A837;
 }
@@ -1607,7 +1612,7 @@ button {
 
 
 
-.service-page-section-banner{
+.service-page-section-banner {
 
     background-image: url(Assets/Mask\ group\ 1.png);
     background-repeat: no-repeat;
@@ -1616,14 +1621,15 @@ button {
     width: 100%;
     border-radius: 40px;
     align-items: center;
-    .heading-texts h1{
+
+    .heading-texts h1 {
 
         margin-bottom: 42px;
     }
 }
 
 
-.services-offered{
+.services-offered {
 
     padding: 60px 300px;
 }
@@ -1632,7 +1638,7 @@ button {
 /*  FAQ PAGE STARTED    */
 
 
-.faq-page-section-banner{
+.faq-page-section-banner {
 
     background-image: url(Assets/fb34914a907f5fce340bbedcc53298528dfda3b3.jpg);
     background-repeat: no-repeat;
@@ -1641,16 +1647,16 @@ button {
     width: 100%;
     border-radius: 40px;
     align-items: center;
-    .heading-texts h1{
+
+    .heading-texts h1 {
 
         margin-bottom: 42px;
     }
 }
 
-.contactus-page-section-banner
-{
+.contactus-page-section-banner {
 
-    
+
     background-image: url(Assets/Frame\ 195.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1658,21 +1664,23 @@ button {
     width: 100%;
     border-radius: 40px;
     align-items: center;
-    .heading-texts h1{
+
+    .heading-texts h1 {
 
         margin-bottom: 42px;
     }
 }
 
 
-.contact-information{
+.contact-information {
 
     padding: 130px 300px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    hr{
+
+    hr {
         color: #b3b1b1;
         width: 280px;
         rotate: 90deg;
@@ -1682,7 +1690,7 @@ button {
 
 
 
-.contact-item{
+.contact-item {
 
     text-align: center;
     color: rgb(0, 0, 0);
@@ -1692,7 +1700,7 @@ button {
 
 
 
-.contact-item i{
+.contact-item i {
     font-size: 55px;
     background-color: #000;
     color: #E9A72C;
@@ -1704,7 +1712,7 @@ button {
 }
 
 
-.contact-item h3{
+.contact-item h3 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 12px;
@@ -1713,17 +1721,16 @@ button {
 
 
 
-.contact-item p{
+.contact-item p {
     font-size: 18px;
     text-align: center;
     color: #ccc;
 }
 
 
-.aboutus-page-section-banner
-{
+.aboutus-page-section-banner {
 
-    
+
     background-image: url(Assets/Frame\ 145.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1731,20 +1738,21 @@ button {
     width: 100%;
     border-radius: 40px;
     align-items: center;
-    .heading-texts h1{
+
+    .heading-texts h1 {
 
         margin-bottom: 42px;
     }
 }
 
-.about-company{
+.about-company {
 
     padding: 60px 300px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    
-    img{
+
+    img {
 
         height: 605px;
         width: 622px;
@@ -1754,24 +1762,220 @@ button {
     }
 }
 
-.header-texts{
+.header-texts {
 
     margin-left: 24px;
-    h4{
+
+    h4 {
         color: #000;
         margin-bottom: 24px;
         font-size: 32px;
         font-weight: 600;
-        span{
+
+        span {
             color: #E7A837;
         }
     }
-    p{
+
+    p {
         color: black;
         margin-bottom: 42px;
         margin-top: 24px;
     }
 }
+
+.success-number {
+
+    padding: 60px 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    img {
+        height: 622px;
+        width: 648px;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+}
+
+
+
+
+/* WHITE BACKGROUND */
+
+.stats-section {
+    width: 100%;
+    min-height: 700px;
+
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 20px;
+}
+
+.stats-grid {
+    width: 620px;
+    height: 620px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.stat-box {
+
+
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-box h2 {
+    font-size: 65px;
+    line-height: 1;
+
+    font-weight: 700;
+
+    color: #000;
+
+    margin-bottom: 18px;
+}
+
+.stat-box p {
+    font-size: 32px;
+    line-height: 1.5;
+
+    font-weight: 600;
+
+    color: #000;
+}
+
+.experience {
+    border-radius: 50px 0 0 0;
+    background-color: #f5dcaf;
+}
+
+
+.projects {
+
+
+    border-radius: 160px 0 0 160px;
+
+    padding-left: 50px;
+    background-color: #faeed7;
+}
+
+
+
+.clients {
+
+
+    border-radius: 0 160px 0 0;
+
+    padding-left: 70px;
+    background-color: #faeed7;
+}
+
+
+.circle-box {
+
+    border: 2px solid #efc373;
+
+    border-radius: 0 0 45px 0;
+
+    display: flex;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.circle {
+
+    width: 270px;
+    height: 270px;
+
+    border: 35px solid #efc373;
+
+    h2 {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 56px;
+    }
+
+    border-radius: 50%;
+}
+
+.our-mission-section {
+
+    padding: 60px 300px;
+
+    .mission-section-cards {
+
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .section-heading {
+
+        margin-bottom: 64px;
+    }
+}
+
+.mission-section-cards .project-card {
+    padding: 36px 36px;
+
+    p {
+        text-align: justify;
+    }
+}
+
+.explore-section {
+    padding: 60px 300px;
+    
+    .explore-section-content {
+        padding: 48px 348px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 40px;
+        background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 78%), rgba(219, 217, 217, 0)),
+            url(Assets/fa636364ebf140380c2412f82d84241abf84f731.png);
+        background-position: center;
+        background-size: cover;
+
+        .section-heading {
+
+            h2 {
+                text-align: center;
+                color: white;
+                line-height: 70px;
+            }
+
+            margin-bottom: 32px;
+
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+
+    }
+}
+
+
+
 /*mobile devices*/
 @media (max-width:320px) {}
 
